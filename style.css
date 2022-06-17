@@ -1,0 +1,111 @@
+*{
+   padding:0;
+   margin-top: 20px;
+   background-color: rgb(12, 12, 20);
+}
+
+.content{
+   margin:auto;
+   width:fit-content;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
+input{
+   width:100%;
+   border: none;
+   background-color: rgb(224, 212, 212);
+   height: 40px;
+   border-radius: 10px;
+}
+.btn{
+
+   
+   margin-top: 20px;
+   width: 25vw;
+   display:flex;
+   flex-wrap: wrap;
+   background-color: rgb(240, 226, 226);
+   
+
+}
+
+   .del{
+      background-color:  rgb(25, 42, 97);
+   }
+
+button{
+   cursor: pointer;
+   border: none;
+   width:60px;
+   border-radius: 5px;
+   height:40px;
+   margin: 10px auto;
+   color: rgb(214, 210, 203);
+}
+button:hover{
+   background-color: rgb(25, 86, 110);
+
+}
+
+.equal {
+   width:100px;
+   background-color: red;
+} 
+.reset{
+   width:100px;
+   background-color:  rgb(25, 42, 97);
+
+}
+/* Media query for small screens */
+
+@media only screen and (max-width: 600px) {
+   
+   
+   .btn{
+      border:solid rgb(32, 68, 187);
+      width:300px;
+   }
+
+   button{
+      width: 80px;
+      border-radius: 5px;
+      margin: 5px auto;
+   }
+   
+}
+/* Media query for tablet */
+
+@media only screen and (max-width: 900px) {
+   
+   
+   .btn{
+      border:solid red;
+      width:300px;
+   }   
+   button{
+      width:70px;
+      border-radius: 5px;
+      margin: 5px auto;
+   }
+
+}
+
+/* Media query for laptop */
+
+@media only screen and (max-width: 1024px) {
+   
+   
+   .btn{
+      border:solid red;
+      width:300px;
+   }
+
+   button{
+      width: 70px;
+      border-radius: 5px;
+      margin: 5px auto;
+   }
+   
+}
